@@ -15,7 +15,7 @@ def mapmap(a)
     }
   }
 end
-<<<<<<< .merge_file_sLWKvY
+
 def suma (a,b)
 	n =a.length
 	c= Array.new(n, 0) { Array.new(n, 0) } #creamos una variable matriz
@@ -27,15 +27,6 @@ def suma (a,b)
 	end
 	c
 end
-
-puts(suma(a,b))
-=======
-
-a=to_m(a)
-puts a
-b=to_m(b)
-puts ""
-puts b
 
 def multiplicacion(a,b)
   m = a.length
@@ -49,6 +40,14 @@ def multiplicacion(a,b)
   end
  d
 end
-
+a=to_m(a)
+puts "Matriz A"
+puts a
+b=to_m(b)
+puts "Matriz B"
+puts b
+puts "Suma"
+puts (suma(a,b))
+puts "Multiplicacion"
 puts (multiplicacion(a,b))
->>>>>>> .merge_file_j0B9rS
+
