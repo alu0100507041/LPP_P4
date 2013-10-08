@@ -1,6 +1,9 @@
 PRACTICA: MULTIPLICACION Y SUMA DE MATRICES
 
+Dada dos matrices cuadradas que se encuentran en el fichero 'datos.dat' calcula la suma y multiplicacion de las mismas.
 
--Practica Realizada por: 
-Salomé González Rodríguez
-Daniel Afonso González
+El conflicto se ocasionó en 'suma.rb' y la práctica final sin conflictos esta en 'mat.rb'
+
+Practica Realizada por: 
+	- Salomé González Rodríguez
+	- Daniel Afonso González
