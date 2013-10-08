@@ -19,13 +19,20 @@ end
 a=to_m(a)
 puts a
 b=to_m(b)
+puts ""
+puts b
 
-n =a.length
-c= Array.new(n, 0) { Array.new(n, 0) } 
-for i in 0...n do
-	
-	for j in 0...n do
-		c[i][j] += a[i][j]+b[i][j]
-	end
+def multiplicacion(a,b)
+  m = a.length
+  d = Array.new(m, 0) {Array.new(m, 0)}
+  for i in 0...m do
+    for j in 0...m do
+      for k in 0...m do
+        d[i][j] += a[i][k] * b[k][j]
+      end
+    end
+  end
+ d
 end
-puts c
+
+puts (multiplicacion(a,b))
