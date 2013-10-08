@@ -15,17 +15,16 @@ def mapmap(a)
     }
   }
 end
-
-a=to_m(a)
-puts a
-b=to_m(b)
-
-n =a.length
-c= Array.new(n, 0) { Array.new(n, 0) } 
-for i in 0...n do
+def suma (a,b)
+	n =a.length
+	c= Array.new(n, 0) { Array.new(n, 0) } #creamos una variable matriz
+	for i in 0...n do
 	
-	for j in 0...n do
-		c[i][j] += a[i][j]+b[i][j]
+		for j in 0...n do
+			c[i][j] += a[i][j]+b[i][j]
+		end
 	end
+	c
 end
-puts c
+
+puts(suma(a,b))
